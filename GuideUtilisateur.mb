@@ -12,9 +12,15 @@ l’état du véhicule en temps réel.
 dans ce fichier, il sera possible de voir la totalité des élément présent autant en 
 documentation que fonctionement au niveau du tableau de bord de la trotinette.
 
+
 ## documentation
 
+Voici les différents documents qui se retrouvent dans le Github ainsi que la fonction de chacun.
 
+#### Boitier:
+
+
+Le fichier Boitier.zip contient les documents de la modélisation du boitier 3D. Tous les fichiers qui étaient nécessaires à l'impression se retrouvent dans ce fichier.
 
 
 ## Guide d'utilisation
@@ -39,5 +45,3 @@ Mode de fonctionnement
 					il est impossible d'accélérer.
 		
 	Erreur 
-
-##
