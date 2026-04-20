@@ -1,0 +1,24 @@
+
+## Mise en contexte
+
+Le project consiste à développer, programmer et assembler
+un tableau de bord qui est fixée sur une trottinette électrique
+complètement fonctionnelle, à l’aide d’un boitier. Ce système 
+électronique complet est suposer établir une communication avec le module
+de contrôle, récupérer les données essentielles, traiter puis
+présenter ces données ainsi que permettre au conducteur visualiser
+l’état du véhicule en temps réel.  
+
+dans ce fichier, il sera possible de voir la totalité des élément présent autant en 
+documentation que fonctionement au niveau du tableau de bord de la trotinette.
+
+## documentation
+
+
+
+
+## Guide d'utilisation
+
+
+
+##
