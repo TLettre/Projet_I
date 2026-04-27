@@ -39,9 +39,7 @@ Mode de fonctionnement
 	Initialisation
 		
 	Conduite
-		
-		Les données ci dessous devrait être visible sur l'écran.
-			
+		Les données ci dessous devraient être visibles sur l'écran:
 			- Vitesse de la trotinette
 			- Pourcentage de la batterie
 			- Courrant consommé
@@ -51,3 +49,5 @@ Mode de fonctionnement
 					- lorsque la trotinette est en mode freinage, il est impossible d'accélérer.
 		
 	Erreur 
+			
+		
