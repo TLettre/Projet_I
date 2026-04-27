@@ -48,7 +48,6 @@ Mode de fonctionnement
 			- Température du système
 			- État de l'éclairage
 			- information de freinage
-					- lorsque la trotinette est en mode freinage
-					il est impossible d'accélérer.
+					- lorsque la trotinette est en mode freinage, il est impossible d'accélérer.
 		
 	Erreur 
