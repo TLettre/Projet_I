@@ -61,7 +61,7 @@ void SystemClock_Config(void);
 
 
 
-vvoid HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
    
     
