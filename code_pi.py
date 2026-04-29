@@ -12,7 +12,7 @@ def lecture_uart(port):
 
     return donnees_utile
 
-def utilisation_donées(donnees_utile):
+def utilisation_donnes(donnees_utile):
     ctrl  = donnees_utile["ctrl"]
     drive = donnees_utile["drive"]
 
