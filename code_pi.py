@@ -1,3 +1,15 @@
+#installer la librarie custom tkinter
+#installer python 3 avant dans l'invite de commande du rasberry pi
+#procedure installer lib pour rasberry
+
+#python3 -m venv venv
+#source venv/bin/activate
+#pip install customtkinter
+#pip install pyserial
+# les 2 autres librairie sont déja disponible
+
+
+
 import customtkinter as ctk
 import serial
 import json
@@ -41,7 +53,7 @@ class App(ctk.CTk):
     def __init__(self):
         super().__init__()
         self.geometry("1000x1000")
-        self.title("projet_1")
+        self.title("dashboard_trotinette")
         self.configure(fg_color="#0d1117")
  
         self.grid_rowconfigure(0, weight=1)
@@ -87,7 +99,30 @@ class info_conduite(ctk.CTkFrame):
         self.case_etat.grid( row=1, column=4, padx=8, pady=8, sticky="nsew")
         self.case_mode.grid( row=2, column=4, padx=8, pady=8, sticky="nsew")
         self.case_fault.grid(row=3, column=4, padx=8, pady=8, sticky="nsew")
+        
+    def mettre_a_jour_affichage(self):
+        """Met à jour tous les affichages avec les données actuelles."""
+        donnees = utilisation_donees(self.donnees_utile)
  
+        # Mettre à jour les cases ON/OFF (booléens)
+        self.case_frein.mettre_a_jour(donnees["frein"])
+        self.case_eclairage.mettre_a_jour(donnees["eclairage"])
+        self.case_moteur.mettre_a_jour(donnees["moteur_on"])
+        self.case_estop.mettre_a_jour(donnees["estop"])
+ 
+        # Mettre à jour les cases INFO (valeurs numériques/texte)
+        self.case_vitesse.mettre_a_jour(donnees["vitesse"])
+        self.case_temperature.mettre_a_jour(donnees["temperature"])
+        self.case_batterie.mettre_a_jour(donnees["batterie"])
+        self.case_courant.mettre_a_jour(donnees["courant"])
+        self.case_commande.mettre_a_jour(donnees["commande"])
+ 
+        # Mettre à jour les infos texte
+        self.case_etat.mettre_a_jour(donnees["etat"])
+        self.case_mode.mettre_a_jour(donnees["mode"])
+        self.case_fault.mettre_a_jour(donnees["fault"])
+
+        
         # Rendre les colonnes de taille egale
         for i in range(5):
             self.grid_columnconfigure(i, weight=1)
