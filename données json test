@@ -1,0 +1,18 @@
+{
+  "ctrl": {
+    "state": "READY",
+    "break_active": false,
+    "estop_active": true,
+    "enable_active": true,
+    "light_active": false,
+    "fault_code": "E02",
+    "cmd": 49
+  },
+  "drive": {
+    "temperature": 43.6,
+    "battery_percentage": 48.7,
+    "motor_current": 8.6,
+    "motor_mode": "normal",
+    "speed": 9.0
+  }
+}
