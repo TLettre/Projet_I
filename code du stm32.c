@@ -29,6 +29,7 @@
 uint8_t gRxString_Buffer[512]; // valeur 512 pour tests fichier json
 uint32_t gByteCountJson = 0; // index pour la prochaine écriture dans le tableau
 uint8_t gCommandReadyToDecode = 0;
+uint8_t rx_byte = 0; // buffer pour le data qui est reçu ou envoyé
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
