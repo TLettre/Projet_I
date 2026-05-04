@@ -35,7 +35,7 @@ Le fichier contien le schéma électrique du tableau de bord.
 
 [**PCB**:](https://github.com/TLettre/Projet_I/blob/main/Altium/PI2_PCB_2L.PcbDoc)
 Fichier du PCB complet du tableau de bord.
--La footprint de la bobine, du régulateur et des bouton ne sont pas les bonne.
+-  La footprint de la bobine, du régulateur et des bouton ne sont pas les bonne.
 
 ## Guide d'utilisation
 
