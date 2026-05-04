@@ -46,7 +46,7 @@ Code pour le fonctionnement du PCB.
 Code qui permet de récupérer les donné en JSON et de les envoyé sur l'écran.
 - Des explications plus précises concernant le code se trouvent dans les commentaires du code.
 
-Tout autres fichier de programmation sert à exécuter des tests.
+Tout autre fichier de programmation sert à exécuter des tests.
 
 ## Guide d'utilisation
 
