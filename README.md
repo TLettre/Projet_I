@@ -41,13 +41,13 @@ Démarage
 		
 Mode de fonctionnement
 	Les données ci dessous devraient être visibles sur l'écran:
-	- Vitesse de la trotinette
-	- Pourcentage de la batterie
-	- Courrant consommé
-	- Température du système
-	- État de l'éclairage
-	- information de freinage
-		- lorsque la trotinette est en mode freinage, il est impossible d'accélérer.
+		- Vitesse de la trotinette
+		- Pourcentage de la batterie
+		- Courrant consommé
+		- Température du système
+		- État de l'éclairage
+		- information de freinage
+			- lorsque la trotinette est en mode freinage, il est impossible d'accélérer.
 		
 			
 		
