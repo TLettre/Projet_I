@@ -29,9 +29,10 @@ Ce fichier contient toutes les informations concernant le projet:
 - Livrables et échéancier (p.5-6)
 Ce fichier regroupe donc toutes les informations que nous avions concernant le projet.
 
-[**Schéma électrique**:](https://github.com/TLettre/Projet_I/blob/main/TEMPLATE_Circuit.SchDoc)
+[**Schéma électrique**:](https://github.com/TLettre/Projet_I/blob/main/Altium/PI2_Circuit.SchDoc)
 Le fichier contien le schéma électrique du tableau de bord. 
-[**PCB**:](https://github.com/TLettre/Projet_I/blob/main/TEMPLATE_PCB_2L.PcbDoc)
+
+[**PCB**:](https://github.com/TLettre/Projet_I/blob/main/Altium/PI2_PCB_2L.PcbDoc)
 Fichier du PCB complet du tableau de bord.
 
 ## Guide d'utilisation
@@ -41,12 +42,19 @@ Démarage
 		
 Mode de fonctionnement
 	Les données ci dessous devraient être visibles sur l'écran:
+	
 		- Vitesse de la trotinette
+		
 		- Pourcentage de la batterie
+		
 		- Courrant consommé
+		
 		- Température du système
+		
 		- État de l'éclairage
+		
 		- information de freinage
+		
 			- lorsque la trotinette est en mode freinage, il est impossible d'accélérer.
 		
 			
