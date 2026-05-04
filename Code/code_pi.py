@@ -13,7 +13,7 @@ import json
 import serial
 # a voir pour la connexion avec la carte
 #port = serial.Serial("COM3", baudrate=115200, timeout=1)
-#def lecture_uart(port):
+#def lecture_uart(port): #changer dans mettre a j affichage à la place de lire données test
 
     #donees1 = port.readline()
     #données2 = donees1.decode("utf-8").strip()
@@ -22,7 +22,7 @@ import serial
     #return donnees_utile
 
 def lire_donnees_test():
-    with open("donnees_test.json", "r", encoding="utf-8") as fichier:
+    with open("cme.cpp", "r", encoding="utf-8") as fichier:
         return json.load(fichier)
 
 
