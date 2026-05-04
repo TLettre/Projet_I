@@ -37,6 +37,16 @@ Le fichier contien le schéma électrique du tableau de bord.
 Fichier du PCB complet du tableau de bord.
 -  La footprint de la bobine, du régulateur et des bouton ne sont pas les bonne.
 
+[**CODE STM**:](https://github.com/TLettre/Projet_I/blob/main/Code/code%20du%20stm32.c)
+- Code pour le fonctionnement du PCB.
+- il devrait prendre les donné du JSON et les envoyer vers le PY pars UART
+- Tout les explication du code sont en commentaire dans le code.
+
+[**CODE PY**:](https://github.com/TLettre/Projet_I/blob/main/Code/code_pi.py)
+- Code qui permet de récupérer les donné en JSON et de les envoyé sur l'écran.
+- tout les explication de code sont dans celu-ci.
+- Les autre fichier de prog serve a faire des teste.
+
 ## Guide d'utilisation
 
 Démarage
