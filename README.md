@@ -40,22 +40,15 @@ Fichier du PCB complet du tableau de bord.
 Démarage
 	Le tableau de bord devrait démarrer lorsque la trotinette est mise en marche.
 		
-Mode de fonctionnement
-	Les données ci dessous devraient être visibles sur l'écran:
-	
-		- Vitesse de la trotinette
-		
-		- Pourcentage de la batterie
-		
-		- Courrant consommé
-		
-		- Température du système
-		
-		- État de l'éclairage
-		
-		- information de freinage
-		
-			- lorsque la trotinette est en mode freinage, il est impossible d'accélérer.
+### Mode de fonctionnement
+Les données ci dessous devraient être visibles sur l'écran:
+- Vitesse de la trotinette
+- Pourcentage de la batterie
+- Courrant consommé
+- Température du système
+- État de l'éclairage
+- information de freinage
+- lorsque la trotinette est en mode freinage, il est impossible d'accélérer.
 		
 			
 		
