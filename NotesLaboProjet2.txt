@@ -1,0 +1,244 @@
+Semaine 1
+Tristan: 
+	- recherche dans les fiches techniques et schéma électrique
+	- recherche sur le régulateur switching et son branchement
+	- branchement du régulateur switching
+	- rechercher les pièces importantes et trouver leurs symboles dans Altium
+	- faire les symboles et les traces des pièces s'ils n'existent pas
+Amélie: 
+	- recherche dans les fiches techniques et schéma électrique
+	- recherche sur le régulateur switching et son branchement
+	- branchement du régulateur switching
+	- recherche sur le connecteur et son branchement
+	- branchement du connecteur
+Gauthier: 
+	- recherche dans les fiches techniques et schéma électrique
+	- recherche sur le régulateur switching et son branchement
+	- branchement du régulateur switching
+	- recherche sur le MCU et son branchement
+	- commencer le branchement du MCU
+
+- Nous avons créé les symboles et les traces des pièces dont nous ne les avions pas.
+- Nous avons trouvé toutes les pièces importantes (écran, connecteurs, BMI323) dont nous avions besoin dans le schéma.
+- Nous avons fait beaucoup de recherches sur le branchement du régulateur switching et nous avons fait le branchement.
+- Nous avons débuté la recherche et le branchement du MCU
+- Manque temps schéma électrique: sous estimé le temps et la recherche nécessaire, beaucoup temps recherche LDO
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Semaine 2
+Tristan: 
+	- continuer la recherche dans les fiches techniques et schéma électrique
+	- finir recherche du MCU et son branchement
+	- finir le branchement du MCU
+	- recherche et branchement du BMI323
+	- envoyer le BOM
+Amélie: 
+	- continuer la recherche dans les fiches techniques et schéma électrique
+	- finir recherche du MCU et son branchement
+	- finir le branchement du MCU
+	- recherche et branchement du BMI323
+	- envoyer le BOM
+Gauthier: 
+	- continuer la recherche dans les fiches techniques et schéma électrique
+	- recherche et branchement de l'écran
+	- recherche et branchement du BMI323
+	- envoyer le BOM
+
+- Nous avons fait la recherche et le branchement de l'écran
+- Nous avons fait la recherche et le branchement du BMI323
+- Nous avons terminé la recherche et le branchement du MCU
+- Rencontre pour les reviews: nous avons décidé d'envoyer le BOM avant d'avoir eu la vérification du schéma
+- Le client a changé certaines pièces à utiliser puisqu'il y avait une erreur. Il a donc fallu faire la recherche de ces pièces et les symboles si nécessaire.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Semaine 3
+Tristan: 
+	- finir le schéma
+	- brancher les DELs d'alimentation
+	- finir le branchement de chaque pièce
+	- brancher les pièces entre elles
+	- séparer le schéma dans des parties clairement identifiées pour organiser le schéma
+	- s'assurer d'avoir ajouté les notes nécessaires pour comprendre de le schéma
+Amélie: 
+	- finir le schéma
+	- finir le branchement de chaque pièce
+	- brancher les pièces entre elles
+	- séparer le schéma dans des parties clairement identifiées pour organiser le schéma
+	- s'assurer d'avoir ajouté les notes nécessaires pour comprendre de le schéma
+Gauthier: 
+	- finir le schéma
+	- finir le branchement de chaque pièce
+	- brancher les pièces entre elles
+	- séparer le schéma dans des parties clairement identifiées pour organiser le schéma
+	- s'assurer d'avoir ajouté les notes nécessaires pour comprendre de le schéma
+
+- Nous avons fait la recherche et le branchement de chacun des connecteur
+- Nous avons fait le branchement des DELs d'alimentation
+- Nous avons organisé le schéma et identifié chaque partie du schéma
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Semaine 4
+Tristan: 
+	- corriger les erreurs du schéma
+	- corriger certaines erreurs dans le schéma
+	- faire le routage du PCB
+	- finir le routage du PCB en dehors du cours
+	- régler les problèmes du schéma et du PCB
+Amélie: 
+	- corriger les erreurs du schéma
+	- faire le boitier
+	- finir la modélisation du boitier en dehors du cours
+	- aider Tristan à finir le schéma
+	- il faut attendre que le schéma soit fini afin de commencer la modélisation pour avoir les mesures du PCB, ce qui a retardé la modélisation du boitier
+	- régler les problèmes du schéma et du PCB
+Gauthier: 
+	- commencer le code
+	- faire la recherche nécessaire (sur le Raspberry Pi) afin de pouvoir faire le code
+	- préparer le corps du code (les parties nécessaires et comment le code sera construit)
+	- faire la recherche nécessaire pour commencer à coder les parties essentielles
+	- régler les problèmes du schéma et du PCB
+
+- Nous avons du annuler plusieurs reviews puisque le schéma nous a demandé beaucoup plus de temps que ce que nous avions prévu.
+- L'écran a été remplacé par un Raspberry Pi. Nous avons dû faire la recherche pour le Raspberry Pi puisque ce remplacement était un imprévu.
+- Lors de cette semaine, nous avons du faire beaucoup de travail en dehors du cours pour finir les livrables à temps.
+- Nous avons commencé à faire beaucoup plus de documentation concernant notre travail et l'utilisation de notre projet.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Semaine 5
+Tristan: 
+	- créer un GitHub pour y mettre tous ce qui a été fait pour le projet jusqu'à maintenant
+	- commencer le guide d'utilisateur
+		=> explication des modes dans le guide d'utilisateur
+		=> explication du démarrage
+		=> explication de ce qui est afficher
+Amélie:
+	- terminer le boitier
+	- vérifier que les mesures du boitier fonctionnent avec le PCB
+	- faire imprimer le boitier
+	- commencer le plan de tests
+		=> prendre le gabarit utilisé dans le cours de Circuit Imprimé 2
+		=> remplir l'entête du document
+		=> commencer à inscrire les tests qui devront être fait
+Gauthier:
+	- faire les recherches nécessaires pour la programmation
+	- commencer la programmation
+		=> créer des espaces/fenêtres pour chaque chose qui devra être affichée
+
+- Nous avons décidé de commencer le guide d'utilisateur plus tôt afin de recevoir le plus de commentaires possibles lors de la rétroaction formative.
+- L'écran ne doit plus être utilisé dans le projet, donc nous avons moins de recherches à faire cette semaine ce qui nous permet de prendre de l'avance.
+- Nous avons créé un GitHub pour y mettre tous ce que nous avons fait dans le projet jusqu'à maintenant.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Semaine 6
+Tristan:
+	- terminer de mettre tous les fichiers dans le Github
+	- continuer le guide d'utilisateur
+	- continuer le plan de tests
+	- aider Gauthier avec le code
+Amélie:
+	- correction des mesures du boitier
+	- réimprimer le boitier corrigé
+	- finir le plan de test
+Gauthier:
+	- continuer la programmation
+		=> finir la fenêtre d'interface
+		=> afficher les informations reçues par le microcontrôleur
+		=> recherche et amélioration du code de l'interface graphique 
+		=> revoir certains bloc comme la vitesse
+		=> améliorer le mode erreur
+
+- Nous avons fait une analyse de rétroaction formative avec l'enseignant.
+- Nous n'avons pas reçu le PCB que nous avons fait. Nous avions prévu de le recevoir cette semaine et de faire la soudure. Cette partie de la planification doit donc être reportée.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Semaine 7
+Tristan:
+	- Tristan était absent et n'a pas eu l'occasion d'avancer le projet pendant la semaine
+Amélie:
+	- finir le plan de test
+	- continuer le guide d'utilisateur
+Gauthier:
+	- continuer la programmation
+		=> début du code pour la transmission en UART
+		=> traduction du JSON dans le code STM32 puis renvoie les données brutes dans le rasberry
+
+- Tristan était absent pendant cette période. Il n'a donc pas pu faire la soudure pendant le cours. Il va falloir travailler d'avantage pendant la semaine pour rattraper notre retard et redistribuer les tâches pour ce cours si nécessaire.
+- Tristan est absent et n'a pas mis le guide d'utilisateur (commencé et presque terminé) sur le GitHub. Il est le seul à y avoir accès. Il va devoir le mettre dans le Github dès que possible et l'envoyer à l'enseignant rapidement pour avoir la rétroaction formative du guide d'utilisateur.
+	=> Tristan a envoyé le guide d'utilisateur. Le guide d'utilisateur a été ajouté au GitHub et envoyé à l'enseignant pour la rétroaction formative.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Semaine 8
+Tristan: 
+	- déterminer les pièces qui devront être soudées sur le PCB
+	- prendre les pièces disponibles en classe
+	- demander les pièces au magasin
+	- faire la soudure lorsque les pièces seront reçues
+	- faire la documentation de la partie électronique du projet dans le guide d'utilisateur
+Amélie:
+	- continuer le guide d'utilisateur
+	- déterminer les tests nécessaires pour le boitier dans le plan de tests
+	- faire la documentation de la partie mécanique du projet dans le guide d'utilisateur
+Gauthier: 
+	- terminer la programmation
+		=> abandonner l'idée de traduire le code STM et juste créer un canal ouvert pour le STM il transfert juste les données sans décodera
+		=> avancement sur le code du stm32
+	- déterminer les tests nécessaires pour la programmation dans le plan de tests
+	- faire la documentation de la partie programmation du projet dans le guide d'utilisateur
+	
+- Puisque nous n'avions pas les pièces pour souder le PCB, nous n'avons pas eu l'occasion de faire la soudure lors de la semaine précédente. Tristan devra donc faire la soudure pendant la semaine lorsque les pièces seront reçues.
+- Nous avons eu de la difficulté à obtenir une version à jour du BOM. Nous avons fait quelques changements au schéma électrique entre la remise du BOM et la remise du PCB. Nous n'avons ajouté que quelques petites pièces faciles à avoir (résistances). 
+- Lorsque nous avons reçu nos pièce, il y avait une inductance que le magasin n'avait pas. Il n'y avait aucun équivalent de cette pièce. Nous avons donc du chercher une autre inductance qui pourrait fonctionner dans notre circuit.
+- Les traces prévues pour l'inductance sont en surface mount, alors que l'inductance est pour du through hole, ce qui rend la soudure plus difficile. Heureusement, la place dédiée à l'inductance était proche du bord du PCB. Nous l'avons donc soudue de côté.
+- L'inductance de remplacement est beaucoup plus grosse que la précédente. Nous avons donc dû faire un trou dans notre boitier pour que le PCB soudé puisse entrer dans le boitier.
+- Les boutons étaient trop petits pour les traces dédiées. Nous avons donc dû faire des ponds de soudure entre les boutons et les pads.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Semaine 9
+Tristan:
+	- terminer la soudure du PCB
+	- remplir le plan de test du PCB
+	- faire l'intégration
+	- aider Gauthier avec les tests pour le code
+Amélie:
+	- terminer le guide d'utilisateur
+	- préparer la présentation
+	- faire et compléter le plan de tests pour le boitier
+	- faire l'intégration
+Gauthier:
+	- tester la programmation avec le Raspberry Pi
+	- faire la documentation de la partie programmation du projet dans le guide d'utilisateur
+	- remplir le plan de test de la programmation
+	- faire l'intégration
+
+- La remise formative du guide d'utilisateur n'a pas été faite. Il y a eu une mauvaise communication dans l'équipe. Nous avons donc remis le guide d'utilisateur en retard et nous avons eu les commentaires de l'enseignant en retard.
+- Nous n'avions pas regardé les commentaires de l'enseignant sur les choix des pièces dans le BOM. Le régulateur que nous devions mettre ne fonctionne donc pas. Nous avons donc du souder des fils et alimenter la sortie du régulateur avec du 3.3V pour être en mesure d'exécuter les tests.
+- Le prototype n'est toujours pas fonctionnel. Le PCB supporte les tensions et les del de statut fonctionnent. L'ordinateur semble capter le Raspberry Pi et le code semble être envoyé. Donc, la programmation ne fonctionne probablement pas. Sinon, il pourrait y avoir un problème pour la connection entre le PCB et le Raspberry Pi.
+- Il y a eu des problèmes avec la programmation. Le code a été testé avant qu'il soit terminé. Certaines fonctions étaient définies, mais pas appelées. Les librairies qui étaient nécessaires au code n'étaient pas envoyées dans le GitHub. Le code manque énormément de commentaire, ce qui rend le code difficile à comprendre pour les autres coéquipiers. Il y a certains aspects du code qui n'ont pas été appris en classe, ce qui rend le code peu commenté encore plus difficile à comprendre pour les autres coéquipiers.
+- Le boitier n'était pas assez grand pour un des condensateur. Il a donc fallu faire un autre trou dans le couvercle du boitier pour que le boitier puisse se fermer.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Semaine 10
+Tristan:
+	- faire fonctionner le prototype du projet
+	- terminer de remplir le plan de tests
+	- terminer le guide d'utilisateur
+	- présenter notre projet
+Amélie:
+	- faire fonctionner le prototype du projet
+	- terminer de remplir le plan de tests
+	- terminer le guide d'utilisateur
+	- présenter notre projet
+Gauthier:
+	- faire fonctionner le prototype du projet
+	- terminer de remplir le plan de tests
+	- terminer le guide d'utilisateur
+	- présenter notre projet
