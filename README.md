@@ -29,6 +29,10 @@ Ce fichier contient toutes les informations concernant le projet:
 - Livrables et échéancier (p.5-6)
 Ce fichier regroupe donc toutes les informations que nous avions concernant le projet.
 
+[**Schéma électrique**:](https://github.com/TLettre/Projet_I/blob/main/TEMPLATE_Circuit.SchDoc)
+Le fichier contien le schéma électrique du tableau de bord. 
+[**PCB**:](https://github.com/TLettre/Projet_I/blob/main/TEMPLATE_PCB_2L.PcbDoc)
+Fichier du PCB complet du tableau de bord.
 
 ## Guide d'utilisation
 
