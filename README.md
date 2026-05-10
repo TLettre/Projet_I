@@ -63,4 +63,4 @@ Les données ci-dessous devraient être visibles sur l'écran:
 
 Lorsque la trottinette est en mode freinage, il est impossible d'accélérer.
 		
-[**Image du Dashboard en action**:](https://github.com/TLettre/Projet_I/blob/main/Notes/dashboard%20trotinette.png)
+[**Image du Dashboard en action**](https://github.com/TLettre/Projet_I/blob/main/Notes/dashboard%20trotinette.png)
