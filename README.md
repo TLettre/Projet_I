@@ -3,16 +3,16 @@ Projet Final de Projet Intégrateur 2.
 
 ## Mise en contexte
 
-Le project consiste à développer, programmer et assembler
-un tableau de bord qui est fixée sur une trottinette électrique
-complètement fonctionnelle, à l’aide d’un boitier. Ce système 
-électronique complet est suposer établir une communication avec le module
+Le projet consiste à développer, programmer et assembler
+un tableau de bord qui est fixé sur une trottinette électrique
+complètement fonctionnelle à l’aide d’un boitier. Ce système 
+électronique complet est supposé établir une communication avec le module
 de contrôle, récupérer les données essentielles, traiter puis
-présenter ces données ainsi que permettre au conducteur visualiser
+présenter ces données ainsi que permettre au conducteur de visualiser
 l’état du véhicule en temps réel.  
 
-dans ce fichier, il sera possible de voir la totalité des élément présent autant en 
-documentation que fonctionement au niveau du tableau de bord de la trotinette.
+Dans ce fichier, il sera possible de voir la totalité des éléments présents autant en 
+documentation que fonctionement au niveau du tableau de bord de la trottinette.
 
 
 ## Documentation
@@ -20,7 +20,7 @@ documentation que fonctionement au niveau du tableau de bord de la trotinette.
 Voici les différents documents qui se retrouvent dans le Github ainsi que la fonction de chacun.
 
 [**Boitier**:](https://github.com/TLettre/Projet_I/blob/a2e4f342a44780944c0242c8f5481d343143d4d6/Boitier.zip)
-Le fichier Boitier.zip contient les documents de la modélisation du boitier 3D. Tous les fichiers qui étaient nécessaires à l'impression se retrouvent dans ce fichier.
+Le fichier Boitier.zip contient les documents de la modélisation du boitier 3D. Tous les fichiers qui étaient nécessaires à l'impression se trouvent dans ce fichier.
 
 [**Cahier des charges**:](https://github.com/TLettre/Projet_I/blob/81377b3d7a6bdb845bd9907a101511ad725f1cf8/Cahier_charges.docx)
 Ce fichier contient toutes les informations concernant le projet: 
@@ -30,37 +30,38 @@ Ce fichier contient toutes les informations concernant le projet:
 Ce fichier regroupe donc toutes les informations que nous avions concernant le projet.
 
 [**Schéma électrique**:](https://github.com/TLettre/Projet_I/blob/main/Altium/PI2_Circuit.SchDoc)
-Le fichier contien le schéma électrique du tableau de bord. 
-- Le régulateur et la Bobine ne sont pas les bonne pièce.
+Ce fichier contien le schéma électrique du tableau de bord. 
+- Le régulateur et la bobine ne sont pas les bonnes pièces.
 
 [**PCB**:](https://github.com/TLettre/Projet_I/blob/main/Altium/PI2_PCB_2L.PcbDoc)
-Fichier du PCB complet du tableau de bord.
--  La footprint de la bobine, du régulateur et des bouton ne sont pas les bonne.
+Fichier Altium du PCB complet du tableau de bord.
+-  Les footprints de la bobine, du régulateur et des boutons ne sont pas les bonnes.
 
 [**Code STM32**:](https://github.com/TLettre/Projet_I/blob/main/Code/code%20du%20stm32.c)
 Code pour le fonctionnement du PCB.
-- Il devrait prendre les donnés du fichier JSON et les envoyer vers le Raspberry Pi par UART.
+- Il devrait prendre les données du fichier JSON et les envoyer vers le Raspberry Pi par UART.
 - Des explications plus précises concernant le code se trouvent dans les commentaires du code.
 
 [**Code Raspberry Pi**:](https://github.com/TLettre/Projet_I/blob/main/Code/code_pi.py)
-Code qui permet de récupérer les donné en JSON et de les envoyé sur l'écran.
+Code qui permet de récupérer les donnés en JSON et de les envoyer sur l'écran.
 - Des explications plus précises concernant le code se trouvent dans les commentaires du code.
 
 Tout autre fichier de programmation sert à exécuter des tests.
 
 ## Guide d'utilisation
 
-**Démarage**: Le tableau de bord devrait démarrer lorsque la trotinette est mise en marche.
+**Démarage**: Le tableau de bord devrait démarrer lorsque la trottinette est mise en marche.
 		
 ### Mode de fonctionnement
-Les données ci dessous devraient être visibles sur l'écran:
-- Vitesse de la trotinette
+Les données ci-dessous devraient être visibles sur l'écran:
+- Vitesse de la trottinette
 - Pourcentage de la batterie
-- Courrant consommé
-- Température du système
-- État de l'éclairage
-- information de freinage
-- lorsque la trotinette est en mode freinage, il est impossible d'accélérer.
+- Courrant consommé (en ampères)
+- Température du système (en degrés celsius)
+- État de l'éclairage (on ou off)
+- Information de freinage
+
+Lorsque la trottinette est en mode freinage, il est impossible d'accélérer.
 		
 			
 		
