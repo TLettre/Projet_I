@@ -54,12 +54,12 @@ Tout autre fichier de programmation sert à exécuter des tests.
 		
 ### Mode de fonctionnement
 Les données ci-dessous devraient être visibles sur l'écran:
-- Vitesse de la trottinette
+- Vitesse de la trottinette (en km/h)
 - Pourcentage de la batterie
 - Courrant consommé (en ampères)
 - Température du système (en degrés celsius)
 - État de l'éclairage (on ou off)
-- Information de freinage
+- Information de freinage (on ou off)
 
 Lorsque la trottinette est en mode freinage, il est impossible d'accélérer.
 		
