@@ -19,10 +19,8 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "usart.h"
-#include "spi.h"
 #include "usb.h"
 #include "gpio.h"
-#include "cJSON.h"
 #include <string.h>
 
 // Variables globales
@@ -113,6 +111,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
+//activer la reception uart
   HAL_UART_Receive_IT(&hlpuart1, &rx_byte, 1);
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
