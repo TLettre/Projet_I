@@ -37,7 +37,7 @@ Ce fichier contien le schéma électrique du tableau de bord.
 Fichier Altium du PCB complet du tableau de bord.
 -  Les footprints de la bobine, du régulateur et des boutons ne sont pas les bonnes.
 
-[**BOM**:]()
+[**BOM**:](https://github.com/TLettre/Projet_I/blob/96cb56f76c8dbb2d10cd777ee212bbd68585368f/Altium/BOM.pdf)
 Ce fichier contient les informations importantes de chacunes des pièces soudées sur le PCB.
 -  La bobine et le régulateur ne sont pas les bonnes pièces et on été remplacées sur le PCB.
 
