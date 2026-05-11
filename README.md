@@ -23,7 +23,7 @@ Voici les différents documents qui se retrouvent dans le Github ainsi que la fo
 Le fichier Boitier.zip contient les documents de la modélisation du boitier 3D. Tous les fichiers qui étaient nécessaires à l'impression se trouvent dans ce fichier.
 
 [**Cahier des charges**:](https://github.com/TLettre/Projet_I/blob/81377b3d7a6bdb845bd9907a101511ad725f1cf8/Cahier_charges.docx)
-Ce fichier contient toutes les informations concernant le projet: 
+Ce fichier contient toutes les informations concernant le projet. 
 - Mise en situation et schéma de concept (p.3)
 - Requis techniques et inconnus u projet (p.4-5)
 - Livrables et échéancier (p.5-6)
