@@ -32,7 +32,7 @@ Ce fichier contient toutes les informations concernant le projet.
 Ce fichier regroupe donc toutes les informations que nous avions concernant le projet.
 
 
-[**Schéma bloc**](https://github.com/TLettre/Projet_I/blob/feae1b3e02cbf4ebef9064a34becacfc2022ecb2/Notes/ProjetIntegrateur2.drawio)
+[**Schéma bloc**:](https://github.com/TLettre/Projet_I/blob/feae1b3e02cbf4ebef9064a34becacfc2022ecb2/Notes/ProjetIntegrateur2.drawio)
 Schéma qui explique le fonctionnement de notre PCB.
 
 
