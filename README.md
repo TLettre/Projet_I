@@ -29,6 +29,9 @@ Ce fichier contient toutes les informations concernant le projet.
 - Livrables et échéancier (p.5-6)
 Ce fichier regroupe donc toutes les informations que nous avions concernant le projet.
 
+[**Schéma bloc**]()
+Schéma qui explique le fonctionnement de notre PCB.
+
 [**Schéma électrique**:](https://github.com/TLettre/Projet_I/blob/main/Altium/PI2_Circuit.SchDoc)
 Ce fichier contien le schéma électrique du tableau de bord. 
 - Le régulateur et la bobine ne sont pas les bonnes pièces.
