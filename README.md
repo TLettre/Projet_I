@@ -37,6 +37,10 @@ Ce fichier contien le schéma électrique du tableau de bord.
 Fichier Altium du PCB complet du tableau de bord.
 -  Les footprints de la bobine, du régulateur et des boutons ne sont pas les bonnes.
 
+[**BOM**:]()
+Ce fichier contient les informations importantes de chacunes des pièces soudées sur le PCB.
+-  La bobine et le régulateur ne sont pas les bonnes pièces et on été remplacées sur le PCB.
+
 [**Code STM32**:](https://github.com/TLettre/Projet_I/blob/main/Code/code%20du%20stm32.c)
 Code pour le fonctionnement du PCB.
 - Il devrait prendre les données du fichier JSON et les envoyer vers le Raspberry Pi par UART.
