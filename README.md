@@ -39,6 +39,12 @@ documentation que fonctionement au niveau du tableau de bord de la trottinette.
 - Les données sont transmises par le module de contrôle dans un format JSON.
 - Les informations suivantes doivent être affichées : la commande envoyée au moteur, la vitesse du véhicule, le pourcentage de charge de la batterie, le courant consommé, la température du système, l'état de l’éclairage, et l'information de freinage.
 - L'affichage doit être ergonomique.
+- L'information affichée doit être en temps réel.
+- Le délai de rafraichissement doit être 4 fois par secondes.
+- L'information affichée sur l'écran doit être épuré, clair, visible et compréhensible.
+
+### Limitations:
+- Nous ne connaissions pas l'ampleur du projet, ce qui a beaucoup affecté l'organisation de notre projet.
 
   
 ## Documentation
@@ -94,8 +100,8 @@ Tout autre fichier de programmation sert à exécuter des tests.
 
 **Démarage**: Le tableau de bord devrait démarrer lorsque la trottinette est mise en marche.
 		
-### Mode de fonctionnement
-Les données ci-dessous devraient être visibles sur l'écran:
+### Mode de fonctionnement pour un utilisateur:
+Les données ci-dessous devraient être visibles sur l'écran dès que la trottinette est activée:
 - Vitesse de la trottinette (en km/h)
 - Pourcentage de la batterie
 - Courrant consommé (en ampères)
@@ -106,3 +112,9 @@ Les données ci-dessous devraient être visibles sur l'écran:
 Lorsque la trottinette est en mode freinage, il est impossible d'accélérer.
 		
 [**Image du Dashboard en action**](https://github.com/TLettre/Projet_I/blob/6009a4685d689ea0507f30d0aa41ed84b18c9245/Code/dashboard%20trotinette.png)
+
+### Pour un développeur:
+- La DEL D1 verte indique le fonctionnement du 12V.
+- La DEL D2 rouge indique le fonctionnement 3.3V.
+- Le bouton S1 permet de faire un RESET du PCB.
+- Le bouton S2 permet de BOOTer le PCB pour envoyer un nouveau code dans le microcontrôleur.
