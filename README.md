@@ -118,3 +118,9 @@ Lorsque la trottinette est en mode freinage, il est impossible d'accélérer.
 - La DEL D2 rouge indique le fonctionnement 3.3V.
 - Le bouton S1 permet de faire un RESET du PCB.
 - Le bouton S2 permet de BOOTer le PCB pour envoyer un nouveau code dans le microcontrôleur.
+
+## À terminer
+- Le BOOT ne fonctionne pas, donc il faudrait l'arranger.
+- La communication entre le PCB et le Raspberry Pi en UART ne fonctionne pas.
+
+**Auteurs**: Amélie, Tristan et Gauthier 
