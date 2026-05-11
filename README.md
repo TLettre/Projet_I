@@ -1,4 +1,4 @@
-# Projet_I
+# Projet intégrateur 2: dashboard de trottinette
 Projet Final de Projet Intégrateur 2.
 
 ## Mise en contexte
@@ -15,6 +15,32 @@ Dans ce fichier, il sera possible de voir la totalité des éléments présents 
 documentation que fonctionement au niveau du tableau de bord de la trottinette.
 
 
+## Prérequis
+
+### Matériel:
+- Le PCB doit être alimenté avec 12V et 50mA.
+- Le module de contrôle utilisé doit être le STM32U083CC.
+- Le STM32U083CC doit être alimenté par un cable USB-C.
+- Le dashboard doit être affiché sur un écran avec un cable USB-C à HDMI.
+- Le PCB doit contenir un bouton de réinitialisation.
+- Le branchement du connecteur JST qui est branché à la trottinette est définit dans le document de branchements.
+- Nous avons ajouté des DELs d'alimentation pour chaque niveau d'alimentation, bien que ce requis était optionnel.
+- Il doit y avoir 5mA maximum pour chaque DEL.
+- Le PCB doit être fixé avec 4 vis M3.
+- Nous avons fait la conception d’un boitier ergonomique pour encapsuler l’électronique, bien que ce requis soit optionnel.
+- Le boitier doit pouvoir être bien fixé sur le guidon de la trottinette.
+- Les dimmensions du PCB doivent être de 5cm par 5cm.
+- Le PCB ne doit pas être accessible à l'usager.
+- Les DELs d'alimentation ne doivent pas être accessibles à l'usager.
+- Le boitier doit être simple à imprimer.
+
+### Logiciel:
+- Le module de contrôle et le tableau de bord doivent communiquer par protocole UART.
+- Les données sont transmises par le module de contrôle dans un format JSON.
+- Les informations suivantes doivent être affichées : la commande envoyée au moteur, la vitesse du véhicule, le pourcentage de charge de la batterie, le courant consommé, la température du système, l'état de l’éclairage, et l'information de freinage.
+- L'affichage doit être ergonomique.
+
+  
 ## Documentation
 
 Voici les différents documents qui se retrouvent dans le Github ainsi que la fonction de chacun.
