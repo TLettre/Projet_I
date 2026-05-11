@@ -19,8 +19,10 @@ documentation que fonctionement au niveau du tableau de bord de la trottinette.
 
 Voici les différents documents qui se retrouvent dans le Github ainsi que la fonction de chacun.
 
+
 [**Boitier**:](https://github.com/TLettre/Projet_I/blob/a2e4f342a44780944c0242c8f5481d343143d4d6/Boitier.zip)
 Le fichier Boitier.zip contient les documents de la modélisation du boitier 3D. Tous les fichiers qui étaient nécessaires à l'impression se trouvent dans ce fichier.
+
 
 [**Cahier des charges**:](https://github.com/TLettre/Projet_I/blob/81377b3d7a6bdb845bd9907a101511ad725f1cf8/Cahier_charges.docx)
 Ce fichier contient toutes les informations concernant le projet. 
@@ -29,31 +31,38 @@ Ce fichier contient toutes les informations concernant le projet.
 - Livrables et échéancier (p.5-6)
 Ce fichier regroupe donc toutes les informations que nous avions concernant le projet.
 
+
 [**Schéma bloc**](https://github.com/TLettre/Projet_I/blob/feae1b3e02cbf4ebef9064a34becacfc2022ecb2/Notes/ProjetIntegrateur2.drawio)
 Schéma qui explique le fonctionnement de notre PCB.
+
 
 [**Schéma électrique**:](https://github.com/TLettre/Projet_I/blob/main/Altium/PI2_Circuit.SchDoc)
 Ce fichier contien le schéma électrique du tableau de bord. 
 - Le régulateur et la bobine ne sont pas les bonnes pièces.
 
+
 [**PCB**:](https://github.com/TLettre/Projet_I/blob/main/Altium/PI2_PCB_2L.PcbDoc)
 Fichier Altium du PCB complet du tableau de bord.
 -  Les footprints de la bobine, du régulateur et des boutons ne sont pas les bonnes.
 
+
 [**BOM**:](https://github.com/TLettre/Projet_I/blob/96cb56f76c8dbb2d10cd777ee212bbd68585368f/Altium/BOM.pdf)
 Ce fichier contient les informations importantes de chacunes des pièces soudées sur le PCB.
 -  La bobine et le régulateur ne sont pas les bonnes pièces et on été remplacées sur le PCB.
+
 
 [**Code STM32**:](https://github.com/TLettre/Projet_I/blob/main/Code/code%20du%20stm32.c)
 Code pour le fonctionnement du PCB.
 - Il devrait prendre les données du fichier JSON et les envoyer vers le Raspberry Pi par UART.
 - Des explications plus précises concernant le code se trouvent dans les commentaires du code.
 
+
 [**Code Raspberry Pi**:](https://github.com/TLettre/Projet_I/blob/main/Code/code_pi.py)
 Code qui permet de récupérer les donnés en JSON et de les envoyer sur l'écran.
 - Des explications plus précises concernant le code se trouvent dans les commentaires du code.
 
 Tout autre fichier de programmation sert à exécuter des tests.
+
 
 ## Guide d'utilisation
 
